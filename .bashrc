@@ -129,6 +129,10 @@ export PYTHONPATH="${PYTHONPATH}:/home/monty/.local/bin"
 # Add Neovim build from source to PATH
 export PATH="$HOME/neovim/bin:$PATH"
 
-# Source wezterm script for better wezterm integration
-source ~/.wezterm.sh
-. "$HOME/.cargo/env"
+# # Source wezterm script for better wezterm integration if it exists
+# source ~/.wezterm.sh
+
+# Source Cargo environment variables if they exist
+if [ -f ~/.cargo/env ]; then
+    . "$HOME/.cargo/env"
+fi
