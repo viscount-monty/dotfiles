@@ -15,9 +15,9 @@ This approach supersedes the "home directory is a repo with everything ignored e
 - [x] `tmux` indicate when in command mode
 - [x] `tmux` open new panes in same directory as current pane
 - [ ] `tmux` messages such as config reload should be right-justified (don't block window titles)
-- [ ] Configure Neovim to work with bare repo method
-    - [ ] Gitsigns
-    - [ ] Lazgit
+- [x] Configure Neovim to work with bare repo method
+    - [x] Gitsigns
+    - [x] Lazygit
 - [ ] Ensure all aliases functions work correctly
     - [x] `dc` Convenience function used in place of `git`
     - [ ] `dcs` Git status, short format
