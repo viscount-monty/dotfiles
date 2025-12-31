@@ -1,0 +1,7 @@
+# Alacritty configuration file
+live_config_reload = true
+
+[font]
+normal = { family = "0xProtoNerd Font", style = "Regular" }
+bold = { family = "0xProtoNerd Font", style = "Bold" }
+italic = { family = "0xProtoNerd Font", style = "Italic" }
