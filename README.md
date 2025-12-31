@@ -20,8 +20,8 @@ This approach supersedes the "home directory is a repo with everything ignored e
     - [x] Lazygit
 - [ ] Ensure all aliases functions work correctly
     - [x] `dc` Convenience function used in place of `git`
-    - [ ] `dcs` Git status, short format
-    - [ ] `dcl` Git log, one line per entry, pretty formatting
+    - [x] `dcs` Git status, short format
+    - [x] `dcl` Git log, one line per entry, pretty formatting
     - [ ] `dcn` Set up a new repo ready to be populated and pushed to an empty remote repo
     - [ ] `dcr` Accepts an established remote repo URL and pulls the files into $HOME
 - [ ] Move key instructions of gist into `README.md`
