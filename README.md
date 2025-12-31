@@ -13,7 +13,7 @@ This approach supersedes the "home directory is a repo with everything ignored e
 - [x] Create update script to update all currently used packaged managers (apt, flatpak, pacman, yay)
 - [x] `tmux` start window indexing from 1
 - [x] `tmux` indicate when in command mode
-- [ ] `tmux` open new panes in same directory as current pane
+- [x] `tmux` open new panes in same directory as current pane
 - [ ] `tmux` messages such as config reload should be right-justified (don't block window titles)
 - [ ] Configure Neovim to work with bare repo method
     - [ ] Gitsigns
