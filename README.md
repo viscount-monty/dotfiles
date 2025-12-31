@@ -10,6 +10,8 @@ This approach supersedes the "home directory is a repo with everything ignored e
 
 ## Objectives
 
+- [x] Create update script to update all currently used packaged managers (apt, flatpak, pacman, yay)
+- [x] `tmux` start window indexing from 1
 - [ ] Configure Neovim to work with bare repo method
     - [ ] Gitsigns
     - [ ] Lazgit
