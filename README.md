@@ -29,3 +29,7 @@ This approach supersedes the "home directory is a repo with everything ignored e
     - [ ] Linux Mint
     - [ ] Ubuntu 24.04 LTS (WSL)
     - [ ] Raspberry Pi OS
+
+## Usage
+
+- Use `dc` in place of `git`
