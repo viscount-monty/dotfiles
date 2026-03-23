@@ -136,3 +136,6 @@ export PATH="$HOME/neovim/bin:$PATH"
 if [ -f ~/.cargo/env ]; then
     . "$HOME/.cargo/env"
 fi
+
+# opencode
+export PATH=/home/monty/.opencode/bin:$PATH
