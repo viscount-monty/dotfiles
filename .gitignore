@@ -1,0 +1,37 @@
+# Ignore all visible folders (Downloads, Documents, etc.)
+/*
+
+# Allow hidden files and folders to be tracked
+!/.*
+
+# ...BUT explicitly ignore massive or volatile hidden directories
+/.cache/
+/.local/share/Trash/
+/.config/chromium/
+/.mozilla/
+/.var/
+
+# Ignore your actual bare repo folder to prevent Git inception
+/.dotfiles/
+
+# Ignore sensitive keys (security best practice)
+/.ssh/id_*
+/.gnupg/# Ignore all visible folders (Downloads, Documents, etc.)
+/*
+
+# Allow hidden files and folders to be tracked
+!/.*
+
+# ...BUT explicitly ignore massive or volatile hidden directories
+/.cache/
+/.local/share/Trash/
+/.config/chromium/
+/.mozilla/
+/.var/
+
+# Ignore your actual bare repo folder to prevent Gitception
+/.dotfiles/
+
+# Ignore sensitive keys (security best practice)
+/.ssh/id_*
+/.gnupg/
